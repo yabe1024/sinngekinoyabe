@@ -44,9 +44,9 @@ class Fighter extends SpriteActor {
         const hitArea = new Rectangle(8, 8, 2, 2);
         super(x, y, sprite, hitArea);
 
-        this._interval = 5;
+        this._interval = 1;
         this._timeCount = 0;
-        this._speed = 3;
+        this._speed = 2;
         this._velocityX = 0;
         this._velocityY = 0;
         
